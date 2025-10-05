@@ -11,12 +11,12 @@
   `powershell Get-ServiceAcl -Name WeeklyTask | select -expand Access`
 
 "
-ServiceRights     : ChangeConfig, Start, Stop
-AccessControlType : AccessAllowed
-IdentityReference : NT AUTHORITY\Authenticated Users
-IsInherited       : False
-InheritanceFlags  : None
-PropagationFlags  : None
+ServiceRights     : ChangeConfig, Start, Stop<br>
+AccessControlType : AccessAllowed<br>
+IdentityReference : NT AUTHORITY\Authenticated Users<br>
+IsInherited       : False<br>
+InheritanceFlags  : None<br>
+PropagationFlags  : None<br>
 "
 
 ### Step 3: Validate Current Binary Path:
