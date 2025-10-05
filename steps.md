@@ -1,12 +1,12 @@
 - Unquoted Service Paths
-- 
+
 - Weak Service Permissions
 
-###Step 1: Identify Modifiable Services:
+###Step 1: Identify Modifiable Services:<br>
 
   `C:\Tools\SharpUp\SharpUp\bin\Release\SharpUp.exe audit ModifiableServices`
 
-###Step 2: Check Service Permissions:
+###Step 2: Check Service Permissions:<br>
   `powershell-import C:\Tools\Get-ServiceAcl.ps1`
   `powershell Get-ServiceAcl -Name WeeklyTask | select -expand Access`
 
